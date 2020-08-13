@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' >
+
+        <title>Yash Sahay</title>
+    </head>
+    <body>
+        <div class="outer">
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Yash</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Certificates</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I am <span class="home__title-color">Yash Sahay,</span><br>a Web Developer</h1>
+
+                    <a href="#contact" class="button">Connect with me!</a>
+                </div>
+
+                <div class="home__social">
+                    <!--<a href="#" class="home__social-icon"><i class='bx bxl-google' ></i></a>-->
+                    <a href="https://github.com/yashsahay2014" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">    
+                    <img src="images/start.png" alt="My image">
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="images/about.jpg" alt="About Me">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I am Yash Sahay</h2>
+                        <p class="about__text">I am currently pursuing Bachelor of Technology in Computer Science Engineering from NIT Allahabad. I grew up in the town of Bokaro Steel City in Jharkhand. I have completed my school education from the prestigious Delhi Public School, Bokaro Steel City.
+                            <br>I have always been curious about space and cosmos. They fascinate me.
+                            <br>Also, I am a movie-buff and I'm very selective of movie genres. Not mentioning MCU (Marvel Cinematic Universe) would be a crime, so here it is.<br>
+                        Like many others, I am also a Cricket admirer and recently, I have found a new interest : Formula 1 Racing.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                         
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                     
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                         
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-copyright skills__icon' ></i>
+                                <span class="skills__name">C/C++ Programming</span>
+                            </div>
+                         
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-data skills__icon' ></i>
+                                <span class="skills__name">DATA STRUCTURES & ALGORITHMS</span>
+                            </div>
+                        </div>   
+                    </div>
+                    
+                    <div>              
+                        <img src="images/skills.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== Certificates =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Certificates</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                        <img src="images/cert1.jpg" alt="Certificate1">
+                    </div>
+                    <div class="work__img">
+                        <img src="images/cert2.png" alt="Certificate2">
+                    </div>
+                    <div class="work__img">
+                        <img src="images/cert3.jpg" alt="Certificate3">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact Me</h2>
+            
+                <div class="contact__container bd-grid">
+                    
+                    <form action="" class="contact__form">
+                        <p>Connect with me via email or Social Media.</p><br>
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <input type="text" placeholder="Write your message here" class="contact__input">
+                        <input type="button" value="Submit" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Yash Sahay</p>
+            <div class="footer__social">
+                <a href="https://www.facebook.com/yash.sahay.15/" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://www.instagram.com/_yash_sahay_/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://twitter.com/smartboy_2018" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+                <a href="https://www.linkedin.com/in/yash-sahay-2014/" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://www.quora.com/profile/Yash-Sahay-6" class="footer__icon"><i class='bx bxl-quora' ></i></a>
+            </div>
+            <p>&#169; 2020 copyright All Rights Reserved</p>
+        </footer>
+        </div>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="main.js"></script>
+    </body>
+</html>
