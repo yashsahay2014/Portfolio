@@ -146,12 +146,12 @@
             
                 <div class="contact__container bd-grid">
                     
-                    <form action="" class="contact__form">
+                    <form action="form.php" method="POST" class="contact__form">
                         <p>Connect with me via email or Social Media.</p><br>
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <input type="text" placeholder="Write your message here" class="contact__input">
-                        <input type="button" value="Submit" class="contact__button button">
+                        <input type="text" name="name" placeholder="Name" class="contact__input" required>
+                        <input type="mail" name="email" placeholder="Email" class="contact__input" required>
+                        <input type="text" name="message" placeholder="Write your message here" class="contact__input">
+                        <input type="submit" value="Submit" class="contact__button button">
                     </form>
                 </div>
             </section>
